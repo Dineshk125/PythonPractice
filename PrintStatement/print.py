@@ -1,0 +1,8 @@
+print("hello world")
+print("hello", "world")
+print("hello" + "world")
+print("hello" + " " + "world")
+print("hello" * 3)
+print("hello" * 3 + "world")
+print("hello world", end=" ")
+print("hello world", end="\n")
