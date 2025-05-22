@@ -4,7 +4,7 @@ if age >= 18:
     print("you can vote")
 else:
     print("you can't vote")
-    
+
 
 """ Q 1.print if the number is odd or even """
 
