@@ -52,3 +52,38 @@ print(a)
 a = [1, 2, 3, 4, 5, -6, 7, 8, -9]
 a.clear()
 print(a)
+
+
+# pos method
+a = [55, 65, -95, 55.6, -95]
+pos = a.index(-95)
+print(pos)
+
+# sort methos
+
+a = [55, 65, -95, 55.6, -95]
+
+a.sort()
+a.sort(reverse=True)
+print(a)
+
+# reverse method
+
+a = [55, 65, -95, 55.6, -95]
+
+a.reverse()
+print(a)
+
+# append and extend method
+
+a = [55, 65, -95, 55.6, -95]
+
+# a.append(["hello", "hii", 2, 5])
+a.extend(["hello", "hii", 2, 5])
+
+print(a)
+
+# clear method
+a = ["hello", "hii", 2, 5]
+a.clear()
+print(a)
