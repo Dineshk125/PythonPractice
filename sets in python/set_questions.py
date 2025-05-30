@@ -77,14 +77,14 @@ Q6. Write a Python program to check if two given sets have no elements in common
 a = {1, 2, 3, 4}
 b = {4, 5, 6}
 
-MEthod 1
+# MEthod 1
 
 if not a.isdisjoint(b):
     print("Yes")
 else:
     print("No")
 
-Method 2
+# Method 2
 
 if not (a & b):
     print("No")
@@ -101,11 +101,11 @@ a = {1, 4, 6}
 
 b = {6, 7, 8, 9, 1, 4}
 
-Method 1
+# Method 1
 c = b - a
 print(c)
 
-Method 2
+# Method 2
 x = a.intersection(b)
 y = a - x
 print(y)
