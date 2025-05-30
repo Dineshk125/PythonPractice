@@ -1,0 +1,5 @@
+Dinesh Kumawat
+Vinit
+We are learning Python
+
+ append line in file handling
