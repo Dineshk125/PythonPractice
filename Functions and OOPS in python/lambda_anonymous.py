@@ -4,7 +4,7 @@ def add(n1, n2, n3):
 
 print(add(2, 4, 6))
 
-using lambda function
+# using lambda function
 
 
 y = lambda n1, n2, n3: n1 + n2 + n3
