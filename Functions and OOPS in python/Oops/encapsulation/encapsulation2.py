@@ -16,7 +16,7 @@ class Father:
     def desplayFather(self):
         print(f"Father Name:{self.name}")
         print(f"Father Account Number : {self.account_number}")
-        print(f"Father Account Balance : {self.__acc_balance}")
+        print(f"Father Account Balance : {self._acc_balance}")
         print(f"Father Phone Model: {self.__mobile}")
 
 
